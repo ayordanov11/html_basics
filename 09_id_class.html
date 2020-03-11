@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div, span, id & class</title>
+    <style>
+        .card {
+            border: 1px solid #cccc;
+            background: #f4f4f4;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+        .enhance {
+            color: yellow;
+            background-color: black;
+        }
+    </style>
+</head>
+
+<!-- ID should always be unique, individual, you can't have main-header anywhere else; we can have as many cards as we want -->
+<!-- Class, you can repeat it -->
+
+<body>
+    <div id="main-header">
+        <h1>My Website</h1>
+        <p>A site about me</p>
+    </div>
+    <ul il="main-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <div id="about" class="card">
+        <h3>About</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem aliquid non velit beatae, suscipit
+            dolore modi accusamus <span class="enhance">incidunt soluta perspiciatis</span> sapiente. Hic laborum iste
+            sed
+            tempora, commodi odit
+            quibusdam quae iusto magnam velit dolorum voluptatibus enim reprehenderit nemo nisi repudiandae.</p>
+    </div>
+
+    <div id="contact" class="card">
+        <h3>Contact Me</h3>
+        <ul>
+            <li>Address: 50 Main st, Boston MA</li>
+            <li>Phone: (555) 555-5555</li>
+            <li>Email: me@somethingcool.com</li>
+        </ul>
+    </div>
+
+    <div id="footer">
+        <p>Copyright 2019</p>
+    </div>
+</body>
+
+</html>
